@@ -1,0 +1,77 @@
+# ResearchAgent local/private data (NEVER publish)
+data/
+papers/
+private/
+secrets/
+backups/
+logs/
+uploads/
+user_uploads/
+reading_reports/
+chats/
+conversations/
+memory/
+references/
+screenshots/
+local_literature_db/
+online_public_literature_db/
+
+# API credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+settings.local.json
+settings.json
+config.local.json
+
+# Large or copyrighted research materials: exceptions must be reviewed
+*.pdf
+*.caj
+*.docx
+*.zip
+*.7z
+*.rar
+
+# Databases, caches, artifacts
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.log
+*.pkl
+*.pickle
+*.parquet
+*.npy
+*.npz
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Python, virtual environments, IDEs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# User-specific runtime state
+running.json
+launcher_error.log
+server.log
